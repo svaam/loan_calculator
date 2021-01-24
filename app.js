@@ -14,6 +14,7 @@ function calculateResult(e){
     console.log('2 ',calculateIntrest);
     const calculatePayment = parseFloat(year.value) * 12;
     console.log('3 ',calculatePayment);
+    console.log('This changes are done for checking the checkout in new branch');
     
     
     const x = Math.pow(1 + calculateIntrest, calculatePayment);
