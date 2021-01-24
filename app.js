@@ -1,14 +1,13 @@
 document.getElementById('loan-form').addEventListener('submit',calculateResult);
 
 function calculateResult(e){
-    console.log(e);
     const amount = document.getElementById('amount');
     const interest = document.getElementById('intrest');
     const year = document.getElementById('year');
     const monthlyPayment = document.getElementById('monthly-payment');
     const totalPayment = document.getElementById('total-payment');
     const totalInterest  = document.getElementById('total-interest');
-    
+    console.log(e);
     const principle = parseFloat(amount.value);
     console.log('1 ',principle);
     const calculateIntrest = (parseFloat(interest.value) / 100) / 12;
